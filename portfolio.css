@@ -56,6 +56,9 @@ nav{
 
 .menu:hover{color:black;}
 
+a{
+    text-decoration: none;
+}
 
 p{
     position: absolute;
@@ -82,8 +85,68 @@ p{
 .socialmedia .box-sm img{
     position: absolute;
     margin-top: 15vw;
+    width: 5%;
     height: 5%;
 }
+
+.carrousel {
+    width: 33%;
+    max-width: 120em;
+    padding: 1em;
+    color: black;
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: white;
+    overflow-x: hidden;
+  }
+  
+  .carrousel .container {
+    width: 300%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    align-items:center;
+    color: black;
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    transition: all 0.5s ease;
+    transform: translateX(0%);
+    overflow-x: hidden;
+  }
+  
+  .carrousel .imgproj {
+    width: calc( 100% / 3);
+    min-height: 10vh;
+    color: black;
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: white;
+
+  }
+  
+  .carrousel .puntos {
+    width: 100%;
+    padding: 0.4em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .carrousel .punto {
+    width: 2em;
+    height: 2em;
+    margin: 1em 1em 0;
+    color: black;
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: rgb(224, 176, 224);
+  } 
+  
+  .carrousel .punto.activo {
+    background-color: gray;
+  }
 
 
 footer{
@@ -97,3 +160,5 @@ footer{
     font-weight: 400;
     font-size: 10px;
 }
+
+

@@ -15,8 +15,8 @@ header {
 
 h1{
     position: absolute; 
-    margin-top: 4vw;
     width: 100vw;
+    margin-top: 4vw;
     text-align: center;   
     font-family: 'Krona One';
     font-style: normal;
@@ -56,18 +56,8 @@ h2 {
     
     .menu:hover{color:black;}
 
-
-    p{
-    position: absolute;
-    width: 40vw;
-    left: 40vw;
-    top: 300px;
-
-    font-family: 'Krona One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    text-align: center;
+    a{
+        text-decoration: none;
     }
 
     .socialmedia{
@@ -81,6 +71,7 @@ h2 {
     .socialmedia .box-sm img{
     position: absolute;
     margin-top: 15vw;
+    width: 5%;
     height: 5%;
     }
 
@@ -113,7 +104,7 @@ h2 {
 
     #htecnicas {
         position: absolute;
-        top: 40vw;
+        top: 36vw;
         left: 20vw;
         
     }
@@ -121,11 +112,9 @@ h2 {
     #softskills{
         position: absolute;      
         left: 55vw;
-        top: 40vw;
+        top: 36vw;
 
     }
-
-
 
     footer{
     position: absolute;

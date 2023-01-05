@@ -10,7 +10,7 @@ header {
     background: #FFD3F0;
     position: absolute;
     width: 100vw;
-    height: 25%;
+    height: 11vw;
 }
 
 h1{
@@ -43,8 +43,8 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     position:absolute;
-    width: 100%;
-    top: 180px;
+    width: 100vw;
+    top: 12vw;
     
     font-family: 'Krona One';
     font-style: normal;
@@ -54,10 +54,8 @@ nav{
 .menu{color: black;}
 .menu:hover{color:black;}
 
-#photo{
-    position: absolute;
-    width: 40%;
-    margin-top: 15vw;
+a{
+    text-decoration: none;
 }
 
 p{
