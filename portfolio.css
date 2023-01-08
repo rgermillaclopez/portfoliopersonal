@@ -8,14 +8,13 @@
 
 header {
     background: #FFD3F0;
-    position: absolute;
+    padding-top: 3vw; 
     width: 100vw;
-    height: 11vw;
+    padding-bottom: 4vw;
 }
 
 h1{
-    position: absolute; 
-    margin-top: 4vw;
+        
     width: 100vw;
     text-align: center;   
     font-family: 'Krona One';
@@ -25,8 +24,8 @@ h1{
     
 }
 
-h2 {
-    position: absolute;
+.logo a {
+    text-decoration: none;
     margin-top: 2%;
     padding: 1%;
     font-family: 'Michroma';
@@ -42,9 +41,8 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    position:absolute;
     width: 100vw;
-    top: 12vw;
+    top: 15vw;
     
     font-family: 'Krona One';
     font-style: normal;
@@ -61,7 +59,7 @@ a{
 }
 
 p{
-    position: absolute;
+    
     width: 40vw;
     left: 40vw;
     top: 300px;
@@ -83,21 +81,27 @@ p{
 }
 
 .socialmedia .box-sm img{
-    position: absolute;
+    
     margin-top: 15vw;
     width: 5%;
     height: 5%;
 }
 
-.carrousel {
-    width: 33%;
+.grande{
+  
+  
+}
+
+.carrousel {    
+    margin: auto;  
+    width: calc( 120% / 3);
     max-width: 120em;
-    padding: 1em;
+    padding: 2em;
     color: black;
     transition: all 0.4s ease;
     border-radius: 1em;
     background-color: white;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   
   .carrousel .container {
@@ -107,15 +111,15 @@ p{
     justify-content:space-between;
     align-items:center;
     color: black;
-    transition: all 0.4s ease;
     border-radius: 1em;
     transition: all 0.5s ease;
     transform: translateX(0%);
-    overflow-x: hidden;
+    
   }
   
   .carrousel .imgproj {
     width: calc( 100% / 3);
+    
     min-height: 10vh;
     color: black;
     transition: all 0.4s ease;
@@ -149,11 +153,16 @@ p{
   }
 
 
+  .imgInvisible{
+    
+  }
+
+
 footer{
-    position: absolute;
+    
     width: 30vw;
-    top: 44vw;
-    left: 45vw;
+    top: 60vw;
+    left: 40vw;
     
     font-family: 'Krona One';
     font-style: normal;
